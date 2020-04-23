@@ -1,0 +1,1 @@
+const diceImgs = ['dice-1', 'dice-2', 'dice-3', 'dice-4', 'dice-5', 'dice-6'];

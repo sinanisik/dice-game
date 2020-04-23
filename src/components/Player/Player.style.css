@@ -1,0 +1,76 @@
+.player-0-panel, .player-1-panel {
+    background-color: #297fb985;
+    width: 40%;
+    border-radius: 20px;
+}
+
+h3 {
+    color: #e74c3c;
+    font-size: 150%;
+}
+
+p {
+    font-size: 130%;
+    color: #fff;
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: rgba(255, 255, 255, 0.363);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.btn {
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+
+.disabled {
+    background: rgb(153, 150, 150);
+    pointer-events: none;
+}
